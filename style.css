@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
 
+@media(max-width: 560px) {
+    .header .minion-img{
+        max-width: 25%;
+    }
+    footer .footerText{
+        font-size: 1rem;
+    }
+}
 textarea {
     width: 40%;
     display: block;
@@ -9,6 +17,8 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5rem;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 #btn-translate {
@@ -32,13 +42,14 @@ textarea {
     width: 40%;
     padding: 1rem;
     margin: 1rem;
+    font-style: normal;
     margin-left: auto;
     margin-right: auto;
 }
 
 .header {
     background-color: #FDE68A;
-    padding: 3rem;
+    padding: 0.5rem;
     font-size: 2rem;
     text-align: center;
     top: 0
@@ -64,4 +75,14 @@ footer {
     padding-top: 1rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.minion-img{
+    max-width: 10%;
+    border-radius: 50%;
+    margin: none;
+}
+span{
+    display: block;
+     font-size: larger;
 }
